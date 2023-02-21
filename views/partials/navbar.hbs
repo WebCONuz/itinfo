@@ -1,0 +1,111 @@
+{{! navbar  }}
+
+<nav class="navbar navbar navbar-expand-lg bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand text-primary fs-4" href="/">IT-INFO</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul
+        class="navbar-nav me-auto my-2 my-lg-0"
+        style="--bs-scroll-height: 100px;"
+      >
+        <li class="nav-item">
+          <a class="nav-link" href="/dictionaries">Lug'atlar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/topics">Maqolalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">Biz haqimizda</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="/category"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Kategoriyalar
+          </a>
+          <ul class="dropdown-menu">
+            <li><a
+                class="dropdown-item"
+                href="/category/dasturlash"
+              >Dasturlash</a></li>
+            <li><a class="dropdown-item" href="/category/dizayn">Dizayn</a></li>
+            <li><a class="dropdown-item" href="/category/modeling">3D Modeling</a></li>
+            <li><a class="dropdown-item" href="/category/intelect">Suniy
+                intelekt</a></li>
+            <li><a class="dropdown-item" href="/category/database">Ma'lumotlar
+                bazasi</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul
+        class="navbar-nav ms-auto my-2 my-lg-0"
+        style="--bs-scroll-height: 100px;"
+      >
+        <li class="nav-item">
+          <i
+            class="nav-link bi bi-search"
+            data-bs-toggle="modal"
+            data-bs-target="#searchModal"
+          ></i>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/register">Ro'yxatdan o'tish</a>
+        </li>
+      </ul>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="searchModal"
+        tabindex="-1"
+        aria-labelledby="searchModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="searchModalLabel">Lug'at izlash:</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-primary"
+                  type="submit"
+                >Qidirish</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

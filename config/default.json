@@ -1,0 +1,15 @@
+{
+  "PORT": 3000,
+  "dbUri": "mongodb://127.0.0.1:27017/itinfo",
+  "secret_key": "men1ngt0kenuchun$ekretk^lit!m:)",
+  "accsess_key": "buMen1ng@cce$$t0kenuchun$ekretk^l1t!m:)",
+  "refresh_key": "buMen1ngRefre$ht0kenuchun$ekretk^l1t!m:)",
+  "accsess_time": "15m",
+  "refresh_time": "30d",
+  "refresh_ms": 2592000000,
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "muxammadi0799@gmail.com",
+  "smtp_password": "flujzaravlbwuprv",
+  "api_url": "http://localhost:3000"
+}

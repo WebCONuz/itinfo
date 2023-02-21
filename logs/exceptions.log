@@ -1,0 +1,157 @@
+2022-11-03T05:25:42.185Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
+2022-11-03T05:27:12.481Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
+2022-11-03T06:10:39.423Z error: uncaughtException: Function statements require a function name
+D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:4
+function (req, res, next) {
+^^^^^^^^
+
+SyntaxError: Function statements require a function name
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1048:15)
+    at Module._compile (node:internal/modules/cjs/loader:1083:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+2022-11-03T06:11:09.186Z error: uncaughtException: Function statements require a function name
+D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:4
+function () {
+^^^^^^^^
+
+SyntaxError: Function statements require a function name
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1048:15)
+    at Module._compile (node:internal/modules/cjs/loader:1083:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+2022-11-03T06:11:19.765Z error: uncaughtException: Function statements require a function name
+D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:4
+function () {
+^^^^^^^^
+
+SyntaxError: Function statements require a function name
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1048:15)
+    at Module._compile (node:internal/modules/cjs/loader:1083:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+2022-11-03T06:11:27.726Z error: uncaughtException: Function statements require a function name
+D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:4
+function () {
+^^^^^^^^
+
+SyntaxError: Function statements require a function name
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1048:15)
+    at Module._compile (node:internal/modules/cjs/loader:1083:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+2022-11-03T06:13:08.810Z error: uncaughtException: Cannot read properties of undefined (reading 'status')
+TypeError: Cannot read properties of undefined (reading 'status')
+    at module.exports (D:\Portfolio\2022\Node\itinfo\middlewares\ErrorHandlingMiddleware.js:7:14)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:35:9)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
+2022-11-03T06:13:19.998Z error: uncaughtException: next is not a function
+TypeError: next is not a function
+    at expressLogger (D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:19:3)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:24:9)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
+2022-11-03T06:46:50.690Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:8:11)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+2022-11-03T06:47:42.645Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:8:11)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+2022-11-03T06:47:56.112Z error: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\middlewares\expressLogger.js:8:11)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Module.require (node:internal/modules/cjs/loader:1021:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:10:23)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+2022-11-03T06:49:00.667Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:24:1)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
+2022-11-03T06:55:30.661Z error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (D:\Portfolio\2022\Node\itinfo\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (D:\Portfolio\2022\Node\itinfo\index.js:24:5)
+    at Module._compile (node:internal/modules/cjs/loader:1119:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:997:32)
+    at Module._load (node:internal/modules/cjs/loader:838:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:18:47
